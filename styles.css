@@ -1,0 +1,174 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+.background-head, footer {
+  background-color: #1f2937;
+}
+
+.head-width {
+  max-width: 80%;
+  margin: 0 auto;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1rem;
+}
+
+.logo {
+  font-size: 24px;
+  color: #f9f1f8;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: flex-end;
+  gap: 1rem;
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.hero {
+  display: flex;
+  padding-top: 5rem;
+  padding-bottom: 4rem;
+}
+
+.hero h1 {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
+}
+
+.hero p {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.hero button,
+.signup-button {
+  background-color: #3882f6;
+  padding: 0.2rem 1rem;
+  margin: 0.2rem;
+  border-radius: 0.5rem;
+  border: 0;
+}
+
+.hero button a {
+  text-decoration: none;
+  color: #f9f1f8;
+}
+
+.hero-left,
+.hero-right {
+  width: 50%;
+}
+
+.hero-right div {
+  width: 100%;
+  height: 100%;
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.random {
+  max-width: 80%;
+  margin: 0 auto 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.random h2 {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+  margin: 2rem 0;
+}
+
+.blocks {
+  display: flex;
+  gap: 3rem;
+}
+
+.block {
+  max-width: 200px;
+  font-size: 18px;
+  color: gray;
+}
+
+.bordered {
+  box-sizing: border-box;
+  padding: 90px;
+  border: 0.2rem solid #3882f6;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+}
+
+.information-wrapper {
+  background-color: #e5e7eb;
+}
+
+.information {
+  max-width: 60%;
+  margin: 0 auto;
+  padding: 5rem 2rem 4rem;
+}
+
+.dialogue {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.speaker-name {
+  text-align: right;
+  font-weight: 700;
+}
+
+.signup {
+  background-color: #3882f6;
+  max-width: 80%;
+  margin: 5rem auto;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-around;
+  color: #e5e7eb;
+  border-radius: 0.4rem;
+  align-items: center;
+}
+
+.call-top {
+  font-weight: 800;
+}
+
+.call-bottom {
+  font-size: 18px;
+}
+
+.signup-button {
+    border: 3px solid white;
+}
+
+.signup-button a{
+    text-decoration: none;
+    color: white;
+}
+
+footer{
+    padding: 1.5rem;
+}
+footer p{
+    color: white;
+    text-align: center;
+}
